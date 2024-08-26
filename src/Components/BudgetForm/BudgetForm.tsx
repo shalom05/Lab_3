@@ -19,7 +19,6 @@ const BudgetForm: React.FC = () => {
 
   return (
     <div className="budget-form">
-      <header></header>
       <form onSubmit={handleSubmit}>
         <h2>Define budget</h2>
         <input
